@@ -15,7 +15,7 @@
  * 根本原因：没有说范围的话就是string，否则可能很长很长
  * 流程：个百千输入相加，加上进位，生成的是千百个，要求的是个百千，再转一次
  */
-class Solution {
+class no1 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
        ListNode list = null;
        ListNode pre = null;
